@@ -15,6 +15,7 @@
 		0473E622233C42A000AC4E64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0473E620233C42A000AC4E64 /* LaunchScreen.storyboard */; };
 		0473E62A233C4D5500AC4E64 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473E629233C4D5500AC4E64 /* CircleImage.swift */; };
 		0473E62C233C4E6800AC4E64 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473E62B233C4E6800AC4E64 /* MapView.swift */; };
+		0473E62F233C5A9100AC4E64 /* JTNationalPark.png in Resources */ = {isa = PBXBuildFile; fileRef = 0473E62E233C5A9100AC4E64 /* JTNationalPark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		0473E623233C42A000AC4E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0473E629233C4D5500AC4E64 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		0473E62B233C4E6800AC4E64 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		0473E62E233C5A9100AC4E64 /* JTNationalPark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JTNationalPark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		0473E614233C429D00AC4E64 /* SwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0473E62D233C5A4F00AC4E64 /* Images */,
 				0473E615233C429D00AC4E64 /* AppDelegate.swift */,
 				0473E617233C429D00AC4E64 /* SceneDelegate.swift */,
 				0473E619233C429D00AC4E64 /* ContentView.swift */,
@@ -79,6 +82,14 @@
 				0473E61E233C42A000AC4E64 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0473E62D233C5A4F00AC4E64 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0473E62E233C5A9100AC4E64 /* JTNationalPark.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +153,7 @@
 				0473E622233C42A000AC4E64 /* LaunchScreen.storyboard in Resources */,
 				0473E61F233C42A000AC4E64 /* Preview Assets.xcassets in Resources */,
 				0473E61C233C42A000AC4E64 /* Assets.xcassets in Resources */,
+				0473E62F233C5A9100AC4E64 /* JTNationalPark.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
